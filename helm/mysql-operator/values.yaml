@@ -1,7 +1,7 @@
 image:
-  registry: container-registry.oracle.com
-  repository: mysql
-  name: community-operator
+  registry: ghcr.io
+  repository: valentinlazy-inc
+  name: mysql-operator
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
