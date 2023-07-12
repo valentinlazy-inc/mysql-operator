@@ -1,6 +1,30 @@
 apiVersion: v1
 entries:
+  mysql-innodbcluster:
+  - apiVersion: v2
+    appVersion: 8.0.33
+    created: "2023-07-12T21:39:46.0761136Z"
+    description: MySQL InnoDB Cluster Helm Chart for deploying MySQL InnoDB Cluster
+      in Kubernetes
+    digest: 4d093741eed24d49488fb88ab05375aaf470233bc2a9c82093133f3f561bd340
+    icon: https://labs.mysql.com/common/themes/sakila/favicon.ico
+    name: mysql-innodbcluster
+    type: application
+    urls:
+    - https://github.com/valentinlazy-inc/mysql-operator/releases/download/mysql-innodbcluster-2.0.10/mysql-innodbcluster-2.0.10.tgz
+    version: 2.0.10
   mysql-operator:
+  - apiVersion: v2
+    appVersion: 8.0.33-2.0.10
+    created: "2023-07-12T21:39:46.223433155Z"
+    description: MySQL Operator Helm Chart for deploying MySQL InnoDB Cluster in Kubernetes
+    digest: 08df8e4015e5404b63137624d1be12d254462aabc4382650f62a13a09f55ca3d
+    icon: https://labs.mysql.com/common/themes/sakila/favicon.ico
+    name: mysql-operator
+    type: application
+    urls:
+    - https://github.com/valentinlazy-inc/mysql-operator/releases/download/mysql-operator-2.0.10/mysql-operator-2.0.10.tgz
+    version: 2.0.10
   - apiVersion: v2
     appVersion: 8.0.33-2.0.9
     created: "2023-05-17T21:23:49.332859344Z"
@@ -12,4 +36,4 @@ entries:
     urls:
     - https://github.com/valentinlazy-inc/mysql-operator/releases/download/mysql-operator-2.0.9/mysql-operator-2.0.9.tgz
     version: 2.0.9
-generated: "2023-05-17T21:23:48.993768519Z"
+generated: "2023-07-12T21:39:46.223440355Z"
